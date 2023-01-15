@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    padding: 30px;
+}
+
+.menu>ul {
+    display: flex;
+
+}
+
+.sectionOne {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.headerTitle {
+    width: 862px;
+    height: 225px;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 75px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.ExploreButton {
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.HeaderImage img {
+    margin-top: 100px;
+    width: 1000px;
+    height: 500px;
+    margin-left: 230px;
+}
+
+
+
+
+/* CSS for second section */
+
+.secondSection {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 90px;
+}
+
+.secondSectionGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 50px;
+}
+
+.secondSectionGrid img {
+    height: 342px;
+    width: 342px;
+}
+
+
+
+/* CSS for third section */
+.sideBorder {
+    width: 8px;
+    height: 106px;
+    background: #FF900E;
+
+}
+
+.thirdSection {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 70px;
+    gap: 20px;
+
+}
+
+.sectionThreeContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sectionThreeContent h2 {
+
+    width: 468px;
+    height: 106px;
+}
+
+.sectionThreeContent p {
+    width: 524px;
+    height: 78px;
+}
+
+
+.row {
+    width: 570px;
+    height: 171px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.rowContent {
+    padding: 35px;
+}
+
+.thirdSection img {
+    width: 700px;
+    height: 982px;
+    margin-left: 100px;
+}
+
+.ExperienceButton {
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+
+}
+
+.EButton {
+    margin-top: -120px;
+    text-align: center;
+    margin-left: 120px;
+}
+
+
+
+/* CSS for fourth section */
+.fourthSectionTitle p {
+    width: 542px;
+    height: 52px;
+
+}
+
+.fourthSectionTitle {
+    margin-top: 130px;
+    margin-left: 55px;
+}
+
+.innerBox {
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.achievements {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+
+
+/* Sponsor Section CSS */
+.sponsorSection {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sponsor {
+    text-align: center;
+    width: 542px;
+    margin-left: 32%;
+    margin-top: 140px;
+}
+
+
+/* CSS for footer */
+
+footer {
+    width: 1000px;
+    height: 90px;
+    background-color: #FFF4E7;
+    text-align: center;
+    margin-left: 240px;
+    margin-top: 90px;
+    margin-bottom: 116px;
+    border-radius: 8px;
+}
+
+.footerText {
+    padding-top: 35px;
+}
